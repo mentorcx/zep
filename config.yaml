@@ -19,7 +19,7 @@ llm:
   openai_endpoint:
   openai_org_id:
 nlp:
-  server_url: "http://localhost:5557"
+  server_url: "zep-nlp"
 memory:
   message_window: 12
 extractors:
@@ -53,7 +53,7 @@ extractors:
 store:
   type: "postgres"
   postgres:
-    dsn: "postgres://postgres:postgres@localhost:5432/?sslmode=disable"
+    dsn: "postgres://zep:wowwnmmefqdphb1i915xszj04frmkhtl@viaduct.proxy.rlwy.net:40223"
 server:
   # Specify the host to listen on. Defaults to 0.0.0.0
   host: 0.0.0.0
