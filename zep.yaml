@@ -37,7 +37,7 @@ api_secret:
 # We do not collect any PII or any of your data. We only collect anonymized data
 # about how Zep is used.
 telemetry:
-  disabled: false
+  disabled: true
   # Please provide an identifying name for your organization so can get a better understanding
   # about who is using Zep. This is optional.
-  organization_name:
+  organization_name: mentorcx
